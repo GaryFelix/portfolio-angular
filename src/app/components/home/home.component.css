@@ -1,0 +1,314 @@
+.center{
+    /* border: 2px solid black; */
+}
+
+.center .center-img{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.center .center-img img{
+    width: 70%;
+    /* width: auto; */
+    height: 50%;
+    /* border: 2px solid orange; */
+}
+
+.center .img-text{
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 50px;
+    padding: 0px 25%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+/* .center-img{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.center-img img{
+    width: 70%;
+    height: 50%;
+    border: 2px solid orange;
+} */
+
+
+/* center - 2 design */
+
+.center-2{
+    background-color: black;
+    padding: 5rem 5rem;
+    /* height: 120vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.center-2 .title{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* margin-top: 10%; */
+}
+
+.center-2 .title img{
+    width: 20%;
+    height: auto;
+}
+
+.center-2 .cards{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center-2 .cards .card{
+    /* border: 2px solid blue; */
+    margin-right: 30px;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    border: transparent;
+}
+
+.center-2 .cards .card img{
+    width: 22rem;
+    height: 20rem;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+
+
+/* overlay */
+
+.card .overlay{
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height:30%;
+    width:0;
+    /* background-color: #008CBA; */
+    background-color: rgba(34, 33, 33, 0.773);
+    overflow: hidden;
+    transition:0.5s; 
+}
+
+.card:hover .overlay{
+    width: 100%; 
+}
+  
+/* Text */
+.overlay h2{
+    position:absolute;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap; /*Delete the effect of words stacking above each other*/
+}
+
+
+/* center - 3 design */
+
+.center-3{
+    background-color: #efeeee;
+    padding: 2rem 5rem;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;;
+    /* border: 2px solid green; */
+}
+
+.center-3 .title{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.center-3 .title img{
+    width: 20%;
+    height: auto;
+}
+
+.center-3 .boxes{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+}
+
+.center-3 .boxes .box-1{
+    /* border: 2px solid black; */
+    width: 20rem;
+    height: 18rem;
+    padding: 0px 10px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.center-3 .boxes .box-1:hover{
+    border-bottom: 4px solid black;
+    transform:scale(1.02,1.02);
+    transition: all .2s ease;
+}
+
+.center-3 .boxes .box-1 img{
+    width: 80px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.center-3 .boxes .box-1 .text h2{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* center - 4 design */
+
+.container{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    padding-bottom: 5rem;
+    padding-top: 20px;
+}
+
+.center-4 .title{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 50px;
+    /* margin-top: 30px; */
+}
+
+.center-4 .title img{
+    width: 20%;
+    height: auto;
+}
+
+/* .container .title{
+    padding: 0rem 1rem;
+}
+
+.container .title h2{
+    font-weight: 800;
+} */
+
+.container .main{
+    /* border: 2px solid violet; */
+    display: flex;
+    background-color: rgb(244, 243, 243);
+    width: 100%;
+    padding: 0px 1rem;
+    border-radius: 10px;
+}
+
+
+.forms{
+    /* border: 2px solid black; */
+    width: 80%;
+    padding: 10px 10px;
+}
+
+.forms form{
+    /* border: 2px solid green; */
+    padding: 10px 0px;
+}
+
+.forms form .contact-input{
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+}
+
+.forms form .input-2{
+    /* border: 2px solid red; */
+    margin-right: 2px;
+}
+
+.forms form .contact-input input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.forms form .contact-textarea textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.container .main .img{
+    /* border: 2px solid darkblue; */
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.container .main .img img{
+    width: 500px;
+    height: auto;
+    /* border: 2px solid aquamarine; */
+}
+
+/* footer design */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+}
+
+footer .text {
+    /* border: 2px solid red; */
+}
+
+footer .text h2{
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .logo{
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer .logo a{
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+}

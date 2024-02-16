@@ -1,0 +1,97 @@
+.center-3{
+    background-color: #efeeee;
+    padding: 2rem 5rem;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;;
+    /* border: 2px solid green; */
+}
+
+.center-3 .title{
+    /* border: 2px solid red; */
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.center-3 .title img{
+    width: 20%;
+    height: auto;
+}
+
+.center-3 .boxes{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+}
+
+.center-3 .boxes .box-1{
+    /* border: 2px solid black; */
+    width: 20rem;
+    height: 18rem;
+    padding: 0px 10px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.center-3 .boxes .box-1:hover{
+    border-bottom: 4px solid black;
+    transform:scale(1.02,1.02);
+    transition: all .2s ease;
+}
+
+.center-3 .boxes .box-1 img{
+    width: 80px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.center-3 .boxes .box-1 .text h2{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* footer design */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+}
+
+footer .text {
+    /* border: 2px solid red; */
+}
+
+footer .text h2{
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .logo{
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer .logo a{
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+}

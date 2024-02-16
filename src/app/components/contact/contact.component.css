@@ -1,0 +1,107 @@
+.container{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+}
+
+.container .title{
+    padding: 0rem 1rem;
+}
+
+.container .title h2{
+    font-weight: 800;
+}
+
+.container .main{
+    /* border: 2px solid violet; */
+    display: flex;
+    background-color: rgb(244, 243, 243);
+    width: 80%;
+    padding: 0px 1rem;
+    border-radius: 10px;
+}
+
+
+.forms{
+    /* border: 2px solid black; */
+    width: 80%;
+    padding: 10px 10px;
+}
+
+.forms form{
+    /* border: 2px solid green; */
+    padding: 10px 0px;
+}
+
+.forms form .contact-input{
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+}
+
+.forms form .input-2{
+    /* border: 2px solid red; */
+    margin-right: 2px;
+}
+
+.forms form .contact-input input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.forms form .contact-textarea textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.container .main .img{
+    /* border: 2px solid darkblue; */
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.container .main .img img{
+    width: 500px;
+    height: auto;
+    /* border: 2px solid aquamarine; */
+}
+
+/* footer design */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .text {
+    /* border: 2px solid red; */
+}
+
+footer .text h2{
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .logo{
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer .logo a{
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+}
