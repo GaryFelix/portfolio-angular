@@ -1,76 +1,336 @@
-.container{
+/* mobile screen */
+
+@media screen and (max-width: 600px) {
+  .center-4 {
+    height: 80vh;
+    /* display: none; */
+  }
+
+  .center-4 .title h2 {
+    text-align: center;
+    font-family: "Amarante", serif;
+    font-size: 45px;
+    color: rgb(0, 166, 255);
+  }
+
+  .center-4 .title p {
+    text-align: center;
+    font-family: "Almendra", serif;
+    font-size: 30px;
+  }
+
+  .center-4 .forms {
     /* border: 2px solid red; */
-    margin-top: 50px;
-}
-
-.container .title{
-    padding: 0rem 1rem;
-}
-
-.container .title h2{
-    font-weight: 800;
-}
-
-.container .main{
-    /* border: 2px solid violet; */
     display: flex;
-    background-color: rgb(244, 243, 243);
-    width: 80%;
-    padding: 0px 1rem;
-    border-radius: 10px;
-}
+    justify-content: center;
+  }
 
-
-.forms{
-    /* border: 2px solid black; */
-    width: 80%;
-    padding: 10px 10px;
-}
-
-.forms form{
+  .center-4 .forms form {
     /* border: 2px solid green; */
-    padding: 10px 0px;
-}
+    padding: 20px 10px;
+    width: 100%;
+  }
 
-.forms form .contact-input{
-    /* border: 2px solid yellowgreen; */
-    display: flex;
-}
-
-.forms form .input-2{
+  .center-4 .forms form .basic-details {
     /* border: 2px solid red; */
-    margin-right: 2px;
-}
-
-.forms form .contact-input input{
-    width: 100%;
-    margin-bottom: 20px;
-    border-radius: 0px;
-}
-
-.forms form .contact-textarea textarea{
-    margin-bottom: 20px;
-    width: 100%;
-    border-radius: 0px;
-}
-
-.container .main .img{
-    /* border: 2px solid darkblue; */
-    width: 100%;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    flex-direction: column;
+  }
+
+  .center-4 .forms form .basic-details input {
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #efeeee;
+  }
+
+  .center-4 .forms form input {
+    padding: 10px 0px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    border: transparent;
+  }
+
+  .center-4 .forms form input:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form textarea {
+    width: 100%;
+    height: 30vh;
+    border: transparent;
+    border-radius: 3px;
+    background-color: #efeeee;
+    resize: none;
+    padding: 10px 10px;
+    text-transform: capitalize;
+  }
+
+  .center-4 .forms form textarea:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form button {
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    width: 100%;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 700;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+    /* border: 2px solid red; */
+  }
+
+  footer .text {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+  }
+
+  footer .text h2 {
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .logo {
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  footer .logo a {
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+  }
 }
 
-.container .main .img img{
-    width: 500px;
+/* tablet design */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .center-4 {
     height: auto;
-    /* border: 2px solid aquamarine; */
+    /* border: 2px solid red; */
+  }
+
+  .center-4 .title h2 {
+    text-align: center;
+    font-family: "Amarante", serif;
+    color: rgb(0, 166, 255);
+    font-size: 45px;
+  }
+
+  .center-4 .title p {
+    text-align: center;
+    font-family: "Almendra", serif;
+    font-size: 30px;
+  }
+
+  .center-4 .forms {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .center-4 .forms form {
+    /* border: 2px solid green; */
+    padding: 20px 10px;
+    width: 80%;
+  }
+
+  .center-4 .forms form .basic-details {
+    /* border: 2px solid red; */
+    display: flex;
+  }
+
+  .center-4 .forms form .basic-details input {
+    margin-bottom: 20px;
+    width: 50%;
+    background-color: #efeeee;
+    font-size: 22px;
+    padding: 20px 10px;
+  }
+
+  .center-4 .forms form input {
+    padding: 10px 0px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    border: transparent;
+    font-size: 22px;
+  }
+
+  .center-4 .forms form input:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form textarea {
+    width: 100%;
+    height: 30vh;
+    font-size: 22px;
+    border: transparent;
+    border-radius: 3px;
+    background-color: #efeeee;
+    resize: none;
+    padding: 10px 10px;
+    text-transform: capitalize;
+  }
+
+  .center-4 .forms form textarea:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form button {
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    width: 100%;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 700;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+    /* border: 2px solid red; */
+  }
+
+  footer .text {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+  }
+
+  footer .text h2 {
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .logo {
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  footer .logo a {
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+  }
 }
 
-/* footer design */
+/* Large screen laptop desktop display */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .center-4 {
+    height: 80vh;
+  }
 
-footer{
+  .center-4 .title h2 {
+    text-align: center;
+    font-family: "Amarante", serif;
+    color: rgb(0, 166, 255);
+    font-size: 35px;
+  }
+
+  .center-4 .title p {
+    text-align: center;
+    font-family: "Almendra", serif;
+    font-size: 25px;
+  }
+
+  .center-4 .forms {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .center-4 .forms form {
+    /* border: 2px solid green; */
+    padding: 20px 10px;
+    width: 70%;
+  }
+
+  .center-4 .forms form .basic-details {
+    /* border: 2px solid red; */
+    display: flex;
+  }
+
+  .center-4 .forms form .basic-details input {
+    margin-bottom: 20px;
+    width: 50%;
+    font-size: 20px;
+    background-color: #efeeee;
+  }
+
+  .center-4 .forms form input {
+    padding: 10px 0px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    border: transparent;
+  }
+
+  .center-4 .forms form input:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form textarea {
+    width: 100%;
+    height: 30vh;
+    border: transparent;
+    border-radius: 3px;
+    background-color: #efeeee;
+    resize: none;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+
+  .center-4 .forms form textarea:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form button {
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    width: 100%;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 700;
+  }
+
+  footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -79,29 +339,154 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-footer .text {
+  }
+  
+  footer .text {
     /* border: 2px solid red; */
-}
-
-footer .text h2{
+  }
+  
+  footer .text h2 {
     font-size: 16px;
     color: white;
-    font-family: 'Poppins', sans-serif;
-}
-
-footer .logo{
+    font-family: "Poppins", sans-serif;
+  }
+  
+  footer .logo {
     /* border: 2px solid green; */
     width: 50%;
     display: flex;
     justify-content: right;
     align-items: center;
-}
-
-footer .logo a{
+  }
+  
+  footer .logo a {
     /* border: 2px solid grey; */
     margin-right: 10px;
     font-size: 30px;
     color: white;
+  }
+}
+
+
+@media screen and (min-width: 1201px){
+    
+  .center-4 {
+    height: 80vh;
+  }
+
+  .center-4 .title h2 {
+    text-align: center;
+    font-family: "Amarante", serif;
+    color: rgb(0, 166, 255);
+    font-size: 35px;
+  }
+
+  .center-4 .title p {
+    text-align: center;
+    font-family: "Almendra", serif;
+    font-size: 25px;
+  }
+
+  .center-4 .forms {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .center-4 .forms form {
+    /* border: 2px solid green; */
+    padding: 20px 10px;
+    width: 70%;
+  }
+
+  .center-4 .forms form .basic-details {
+    /* border: 2px solid red; */
+    display: flex;
+  }
+
+  .center-4 .forms form .basic-details input {
+    margin-bottom: 20px;
+    width: 50%;
+    font-size: 20px;
+    background-color: #efeeee;
+  }
+
+  .center-4 .forms form input {
+    padding: 10px 0px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    border: transparent;
+  }
+
+  .center-4 .forms form input:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form textarea {
+    width: 100%;
+    height: 30vh;
+    border: transparent;
+    border-radius: 3px;
+    background-color: #efeeee;
+    resize: none;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+
+  .center-4 .forms form textarea:focus {
+    outline: none;
+    border: none;
+  }
+
+  .center-4 .forms form button {
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    width: 100%;
+    font-family: "Poppins", "sans-serif";
+    font-weight: 700;
+  }
+
+  /* footer design */
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+    /* border: 2px solid red; */
+  }
+
+  footer .text {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+  }
+
+  footer .text h2 {
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .logo {
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  footer .logo a {
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+  }
 }

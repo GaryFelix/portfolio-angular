@@ -1,97 +1,444 @@
-.center-3{
+@media screen and (max-width: 600px) {
+  .center-3 {
     background-color: #efeeee;
-    padding: 2rem 5rem;
-    /* height: 100vh; */
+    /* height: 200vh; */
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;;
+    justify-content: start;
+    padding: 20px 20px;
     /* border: 2px solid green; */
-}
+  }
 
-.center-3 .title{
-    /* border: 2px solid red; */
-    text-align: center;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+  .center-3 h2 {
+    font-family: "Amarante", serif;
     font-weight: 800;
-    margin-top: 30px;
-}
+    text-align: center;
+    text-transform: uppercase;
+  }
 
-.center-3 .title img{
-    width: 20%;
+  .center-3 p {
+    font-weight: 400 !important;
+    font-family: "Almendra", serif;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .center-3 .boxes {
+    /* border: 2px solid red; */
+    /* max-height: 60vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: auto !important;     */
+  }
+
+  .center-3 .boxes .box-1 {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 50vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
-}
+    border-radius: 10px;
+    margin-bottom: 40px;
+    border: 2px solid rgb(0, 166, 255);
+    box-shadow: 0px 0px 5px 0px rgb(0, 166, 255);
+  }
 
-.center-3 .boxes{
-    /* border: 2px solid black; */
+  .center-3 .boxes .box-1 img {
+    width: 100px;
+    height: auto;
+  }
+
+  .center-3 .boxes .box-1 h2 {
+    font-size: 25px !important;
+    font-family: "Amarante", serif;
+  }
+
+  .center-3 .boxes .box-1 p {
+    font-size: 22px;
+    font-family: "Almendra", serif;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem 5rem; */
+    background-color: black;
+  }
+
+  footer .text {
+    /* border: 2px solid red; */
+  }
+
+  footer .text h2 {
+    font-size: 16px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .logo {
+    /* border: 2px solid green; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 2rem 0rem;
+  }
+
+  footer .logo a {
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+  }
 }
 
-.center-3 .boxes .box-1{
+/* tablet design */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .center-3 {
+    background-color: #efeeee;
+    padding: 2rem 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid green; */
+  }
+
+  .center-3 h2 {
+    font-family: "Amarante", serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .center-3 p {
+    font-weight: 400 !important;
+    font-family: "Almendra", serif;
+    font-size: 35px;
+    text-align: center;
+    /* border: 2px solid red; */
+    color: rgb(0, 166, 255);
+  }
+
+  .center-3 .boxes {
     /* border: 2px solid black; */
-    width: 20rem;
-    height: 18rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+    padding-left: 3rem;
+  }
+
+  .center-3 .boxes .box-1 {
+    /* border: 2px solid black; */
+    width: auto;
+    height: auto;
     padding: 0px 10px;
     margin-right: 50px;
     text-align: center;
     margin-top: 20px;
     background-color: white;
-}
+    border-radius: 3px;
+    margin-bottom: 25px;
+    border: 2px solid rgb(0, 166, 255);
+    box-shadow: 0px 0px 5px 0px rgb(0, 166, 255);
+  }
 
-.center-3 .boxes .box-1:hover{
+  .center-3 .boxes .box-1:hover {
     border-bottom: 4px solid black;
-    transform:scale(1.02,1.02);
-    transition: all .2s ease;
-}
+    transform: scale(1.02, 1.02);
+    transition: all 0.2s ease;
+  }
 
-.center-3 .boxes .box-1 img{
-    width: 80px;
+  .center-3 .boxes .box-1 img {
+    width: 100px;
     height: auto;
     margin-top: 5px;
     margin-bottom: 20px;
-}
+  }
 
-.center-3 .boxes .box-1 .text h2{
-    font-size: 28px;
-    font-family: 'Poppins', sans-serif;
+  .center-3 .boxes .box-1 h2 {
+    font-size: 35px !important;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 30px;
-}
+  }
 
-/* footer design */
+  .center-3 .boxes .box-1 p {
+    font-size: 30px;
+    color: black;
+  }
 
-footer{
+  footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 2rem 5rem;
     background-color: black;
-}
-
-footer .text {
     /* border: 2px solid red; */
-}
+  }
 
-footer .text h2{
-    font-size: 16px;
+  footer .text {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  footer .text h2 {
+    font-size: 22px;
     color: white;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 
-footer .logo{
+  footer .logo {
     /* border: 2px solid green; */
     width: 50%;
     display: flex;
     justify-content: right;
     align-items: center;
-}
+  }
 
-footer .logo a{
+  footer .logo a {
     /* border: 2px solid grey; */
     margin-right: 10px;
     font-size: 30px;
     color: white;
+  }
+}
+
+/* small screen laptop */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .center-3 {
+    background-color: #efeeee;
+    padding: 2rem 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid green; */
+  }
+
+  .center-3 h2 {
+    font-family: "Amarante", serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .center-3 p {
+    font-weight: 400 !important;
+    font-family: "Almendra", serif;
+    font-size: 35px;
+    text-align: center;
+    /* border: 2px solid red; */
+    color: rgb(0, 166, 255);
+  }
+
+  .center-3 .boxes {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 2rem 0rem;
+    padding-left: 8px;
+  }
+
+  .center-3 .boxes .box-1 {
+    /* border: 2px solid black; */
+    width: 23rem;
+    height: auto;
+    padding: 0px 10px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+    /* padding-left: 1rem; */
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid rgb(0, 166, 255);
+    box-shadow: 0px 0px 5px 0px rgb(0, 166, 255);
+  }
+
+  .center-3 .boxes .box-1:hover {
+    border-bottom: 4px solid black;
+    transform: scale(1.02, 1.02);
+    transition: all 0.2s ease;
+  }
+
+  .center-3 .boxes .box-1 img {
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .center-3 .boxes .box-1 h2 {
+    font-size: 35px !important;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+  }
+
+  .center-3 .boxes .box-1 p {
+    font-size: 25px;
+    color: black;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+    /* border: 2px solid red; */
+  }
+
+  footer .text {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+  }
+
+  footer .text h2 {
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .logo {
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  footer .logo a {
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+  }
+}
+
+/* large screen display */
+@media screen and (min-width: 1201px) {
+  .center-3 {
+    background-color: #efeeee;
+    padding: 2rem 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid green; */
+  }
+
+  .center-3 h2 {
+    font-family: "Amarante", serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .center-3 p {
+    font-weight: 400 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    /* border: 2px solid red; */
+    color: rgb(0, 166, 255);
+  }
+
+  .center-3 .boxes {
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 2rem 0rem;
+    padding-left: 8px;
+  }
+
+  .center-3 .boxes .box-1 {
+    border: 2px solid rgb(0, 166, 255);
+    box-shadow: 0px 0px 5px 0px rgb(0, 166, 255);
+    width: 23rem;
+    height: auto;
+    padding: 0px 10px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+    /* padding-left: 1rem; */
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  .center-3 .boxes .box-1:hover {
+    border-bottom: 4px solid black;
+    transform: scale(1.02, 1.02);
+    transition: all 0.2s ease;
+  }
+
+  .center-3 .boxes .box-1 img {
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .center-3 .boxes .box-1 h2 {
+    font-size: 25px !important;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+  }
+
+  .center-3 .boxes .box-1 p {
+    font-size: 18px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: black;
+    /* border: 2px solid red; */
+  }
+
+  footer .text {
+    /* border: 2px solid red; */
+    padding-top: 10px;
+  }
+
+  footer .text h2 {
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  footer .logo {
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  footer .logo a {
+    /* border: 2px solid grey; */
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+  }
 }
