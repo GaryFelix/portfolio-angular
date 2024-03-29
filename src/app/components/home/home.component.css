@@ -40,7 +40,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     /* border: 2px solid green; */
   }
 
@@ -117,7 +117,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     padding: 20px 20px;
     /* border: 2px solid green; */
   }
@@ -337,7 +337,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     /* border: 2px solid red; */
   }
 
@@ -648,7 +648,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     /* border: 2px solid red; */
   }
 
@@ -955,7 +955,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     /* border: 2px solid red; */
   }
 
