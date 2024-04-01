@@ -3,7 +3,7 @@
 
 body {
   --sb-track-color: #ffffff;
-  --sb-thumb-color: #00b4ff;
+  --sb-thumb-color: #00aeff;
   --sb-size: 11px;
 }
 
@@ -18,8 +18,8 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
-  border-radius: 1px;
-  border: 2px solid #000000;
+  border-radius: 4px;
+  /* border: 2px solid #000000; */
 }
 
 @supports not selector(::-webkit-scrollbar) {

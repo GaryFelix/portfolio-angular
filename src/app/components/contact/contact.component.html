@@ -11,18 +11,37 @@
             <h2>Contact</h2>
             <p>Having any queries, feel free to ask!</p>
         </div>
-        <div class="forms">
-            <form action="">
+        <div class="forms" [formGroup]="form">
+            <form action="javascript:void(0)" (submit)="send()">
                 <div class="basic-details">
-                    <input type="text" placeholder="Your Name" style="margin-right: 20px;">
-                    <input type="email" placeholder="Your Email">
+                    <input 
+                    formControlName="from_name"
+                    type="text" 
+                    placeholder="Your Name" 
+                    style="margin-right: 20px;" 
+                    required
+                    [minlength]="25"
+                    />
+                    <input 
+                    formControlName="from_email"
+                    type="email" 
+                    placeholder="Your Email" 
+                    required
+                    />
                 </div>
-                <textarea name="" placeholder="Description"></textarea>
-                <button>Send</button>
+                <textarea 
+                formControlName="description"
+                name="" 
+                placeholder="Description" required>
+                </textarea>
+                <button type="submit">Send</button>
+
+                <!-- {{ form.value | json }} -->
             </form>
         </div>
 
     </div>
+    
 
     <!-- footer content -->
     <footer>

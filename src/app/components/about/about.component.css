@@ -72,11 +72,12 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     /* padding: 2rem 5rem; */
     background-color: black;
-    position: absolute;
+    /* position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     width: 100%;
   }
 
@@ -113,6 +114,7 @@
   section {
     /* border: 2px solid red; */
     padding: 0px 10px;
+    height: auto;
   }
 
   section .title {
@@ -134,7 +136,8 @@
     padding: 0px 10px;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   section .center-content .content {
@@ -189,9 +192,9 @@
     align-items: center;
     padding: 2rem 5rem;
     background-color: black;
-    position: absolute;
+    /* position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     width: 100%;
     /* border: 2px solid red; */
   }
@@ -304,10 +307,10 @@
     align-items: center;
     padding: 2rem 5rem;
     background-color: black;
-    position: absolute;
+    /* position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
     /* border: 2px solid red; */
   }
 

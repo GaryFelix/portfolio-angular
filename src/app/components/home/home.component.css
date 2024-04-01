@@ -181,8 +181,43 @@
   /* center - 4 design */
 
   .center-4 {
-    height: 80vh;
-    /* display: none; */
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    /* background-color: rgb(0, 0, 0); */
+  }
+
+  .center-4 .title{
+    /* border: 2px solid green; */
+    /* width: 70%; */
+    background-color: #d0d0d0;
+    border-radius: 10px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .center-4 .title a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+
+  .center-4 .title a:hover{
+    background-color: black;
+    color:white;
+    transition: all .3s ease;
   }
 
   .center-4 .title h2 {
@@ -272,6 +307,8 @@
     align-items: center;
     /* padding: 2rem 5rem; */
     background-color: black;
+    margin-top: 20px;
+    /* width: 100%; */
   }
 
   footer .text {
@@ -486,10 +523,45 @@
   }
 
   /* center - 4 design */
-
   .center-4 {
     height: auto;
     /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 80px 0px 0px 80px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .center-4 .title{
+    /* border: 2px solid green; */
+    /* width: 70%; */
+    background-color: #efeeee;
+    border-radius: 10px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .center-4 .title a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 12px;
+    cursor: pointer;
+  }
+
+  .center-4 .title a:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s ease;
+    cursor: pointer;
   }
 
   .center-4 .title h2 {
@@ -798,8 +870,46 @@
 
   /* center - 4 design */
 
-  .center-4 {
+  /* .center-4 {
     height: 80vh;
+  } */
+
+  .center-4 {
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 80px 0px 0px 110px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .center-4 .title{
+    /* border: 2px solid green; */
+    /* width: 70%; */
+    background-color: #efeeee;
+    border-radius: 5px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .center-4 .title a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .center-4 .title a:hover{
+    background-color: black;
+    color: white;
+    transition: all .3s ease;
   }
 
   .center-4 .title h2 {
@@ -911,6 +1021,10 @@
     align-items: center;
   }
 
+  footer .logo i:hover{
+    color: grey;
+  }
+
   footer .logo a {
     /* border: 2px solid grey; */
     margin-right: 10px;
@@ -992,13 +1106,13 @@
     align-items: center;
     margin-right: 20px;
     margin-bottom: 30px;
-    width: auto;
+    width: 80%;
     height: auto;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     box-shadow: 0px 0px 2px 2px white;
     border-radius: 8px;
     padding: 50px 30px;
-    border: transparent;
+    /* border: transparent; */
     background-color: rgba(224, 224, 224, 0.734);
   }
 
@@ -1017,6 +1131,11 @@
     font-size: 30px;
     width: 100%;
     text-align: left;
+    /* border: 2px solid red; */
+  }
+
+  .center-2 .cards .card a:hover{
+    color: green;
   }
 
   .center-2 .cards .card p {
@@ -1108,7 +1227,25 @@
   /* center - 4 design */
 
   .center-4 {
-    height: 80vh;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 80px 0px 0px 170px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .center-4 .title{
+    /* border: 2px solid green; */
+    /* width: 70%; */
+    background-color: #efeeee;
+    border-radius: 10px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
 
   .center-4 .title h2 {
@@ -1122,6 +1259,24 @@
     text-align: center;
     font-family: "Almendra", serif;
     font-size: 25px;
+  }
+
+  .center-4 .title a{
+    border: 2px solid black;
+    padding: 12px 12px;
+    width: 100%;
+    text-align: center; 
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  .center-4 .title a:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all .3s ease;
   }
 
   .center-4 .forms {
@@ -1218,6 +1373,10 @@
     display: flex;
     justify-content: right;
     align-items: center;
+  }
+  footer .logo i:hover{
+    color: grey;
+    cursor: pointer;
   }
 
   footer .logo a {
