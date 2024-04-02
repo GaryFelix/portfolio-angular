@@ -450,6 +450,11 @@
     align-items: center;
   }
 
+  footer .logo i:hover{
+    color: grey;
+    cursor: pointer;
+  }
+  
   footer .logo a {
     /* border: 2px solid grey; */
     margin-right: 10px;

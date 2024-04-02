@@ -497,4 +497,9 @@
     font-size: 30px;
     color: white;
   }
+
+  footer .logo i:hover{
+    color: grey;
+    cursor: pointer;
+  }
 }
